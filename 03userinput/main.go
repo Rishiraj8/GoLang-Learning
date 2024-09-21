@@ -26,3 +26,29 @@ func main() {
 	fmt.Printf("This is the type of email %T", email)
 
 }
+
+// package main
+// import ("fmt")
+
+// func main() {
+//   var i,j int
+
+//   fmt.Print("Type two numbers: ")
+//   fmt.Scanf("%v %v",&i, &j)
+//   fmt.Println("Your numbers are:", i, "and", j)
+// }
+//Note: %v tells Scanf() to store the value of the inputs in the variables.
+//In this example, the inputs are received in exactly the same way defined in Scanf() formatting.
+
+// This means that the code expects inputs to be received with one space between them. Like: 1 2.
+
+// package main
+// import ("fmt")
+
+// func main() {
+//   var i,j int
+
+//   fmt.Print("Type two numbers: ")
+//   fmt.Scanln(&i, &j)
+//   fmt.Println("Your numbers are:", i, "and", j)
+// }
