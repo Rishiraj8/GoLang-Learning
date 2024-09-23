@@ -15,5 +15,9 @@ func main() {
 	fmt.Println("The current time only is : ", presentTime.Format("15:04:05"))
 	createdTime := time.Date(2004, time.December, 8, 0, 0, 0, 0, time.Now().Location())
 	fmt.Println(createdTime)
+	//also tried to build a exe (a go application using these commands)
+	//go mod init 05Time
+	//GOOS=windows go build
+	//for macs its GOOS="darwin"
 
 }
