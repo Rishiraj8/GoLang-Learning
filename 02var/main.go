@@ -45,6 +45,8 @@ func main() {
 
 	numberofUser := 100000.0123
 	testtype := 10000.0
+	const country = "India"
+	fmt.Println(country)
 	//walrus operator
 	fmt.Printf("testtype number is %f and %T\n", testtype, testtype)
 	fmt.Println(testtype)
