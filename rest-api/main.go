@@ -79,7 +79,7 @@ func main() {
     router := gin.Default()
     router.GET("/albums", getAlbums)
     router.POST("/albums",postAlbums)
-    router.GET("/albums/:id", getAlbumByID)
+    router.GET("/albums/:id", getAlbumByID) 
     router.GET("/students",getStudents);
     router.GET("/students/:regno", getStudentByRegno)
     router.GET("/search", searchStudents)
